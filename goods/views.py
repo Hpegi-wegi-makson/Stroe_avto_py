@@ -4,9 +4,12 @@ import goods
 from goods.models import Products
 
 
-def catalog(request):
+def catalog(request,category_slug):
 
-    goods=Products.objects.all()
+    if category_slug =='all':
+        goods=Products.objects.all()
+    else:
+        goods=Products.objects.filter(category__slug=category_slug)
 
     context = {
         'title': 'Поршень - Каталог',
