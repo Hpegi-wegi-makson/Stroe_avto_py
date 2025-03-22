@@ -6,7 +6,11 @@ import goods
 from goods.models import Products
 
 
-def catalog(request,category_slug, page=1 ):
+def catalog(request,category_slug, ):
+
+    page = request.GET.get('page', 1)
+
+
 
     if category_slug =='all':
         goods=Products.objects.all()
@@ -14,7 +18,7 @@ def catalog(request,category_slug, page=1 ):
         goods=Products.objects.filter(category__slug=category_slug)
 
     paginator = Paginator(goods, 3,)
-    current_page = paginator.page(page)
+    current_page = paginator.page(int(page))
     context = {
         'title': 'Поршень - Каталог',
         'goods': current_page,
