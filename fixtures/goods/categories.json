@@ -1,0 +1,58 @@
+ [
+                {
+                    "model": "goods.categories",
+                    "pk": 4,
+                    "fields": {
+                        "name": "┬ёх ЄютрЁ√",
+                        "slug": "all"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 5,
+                    "fields": {
+                        "name": "─тшурЄхы№",
+                        "slug": "dvigatel"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 6,
+                    "fields": {
+                        "name": "╤рыюэ",
+                        "slug": "salon"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 7,
+                    "fields": {
+                        "name": "╩єчют",
+                        "slug": "kuzov"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 8,
+                    "fields": {
+                        "name": "╩юы╕ёр",
+                        "slug": "kolyosa"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 9,
+                    "fields": {
+                        "name": "╠рёыр",
+                        "slug": "masla"
+                    }
+                },
+                {
+                    "model": "goods.categories",
+                    "pk": 10,
+                    "fields": {
+                        "name": "└эЄшЇЁшч√",
+                        "slug": "antifrizy"
+                    }
+                }
+]
